@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+/* Reset CSS, anula todas config pré definidas */
+/* o reset e a distância, mas o padding e a distância e do conteúdo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #EBD9E1;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    background: #C8CAFA;
+    left: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    right: 1150px;
+    top: 1150px;
+    margin-left: 130px;
+}
+.profile img {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    margin-right: 10px;
+    
+}
+.icon{
+    margin-top: 30px;
+    font-size: 25px;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin-right: 50px;   
+}
+h2{
+    align-items: center;
+    right: 1150px;
+    top: 1150px;
+    margin-left: 160px;
+    margin-top: 60px;
+    background-color: green;
+    
+}
+
+
+aside{
+    background-color: green;
+    display: grid;   
+    height: 50px;
+    width: 500px;
+}
+main{
+    background-color: red;
+    display: grid;
+    height: 500px;
+    width: 1500px;
+    margin-left: 550px;
+    top: 50px;
+    
+}
+/* A fonte tem um numero que dá pra ver no figma, então clique em inspect */
+.return {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+}
+.return {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+.return h3 span {
+   display: inline-block;
+/* O MARGIN RIGHT ELE ESTÁ SEPARANDO A PARTE ALI DO PC E DO NGÇ */
+   margin-right: 50px;
+   top: -460px;
+   position: relative;
+   width: 125px;
+   height: 25px;
+   background-color: rgb(193, 183, 235);
+   text-align: center; 
+}
+.blocos{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(193, 183, 235);
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.blocosDays {
+    width: 150px;
+    height: 30px;
+    margin-left: 500px;
+    margin-top: 10px;
+    background-color: rgb(193, 183, 235);
+   
+}
+
+/* alinha os itens no espaço disponível de forma que o primeiro item fica na esquerda e o último na direita. */
+/* display block com margin-left jooga para extrema esquerda, mas se colocar tbm o margin-right ele centraliza */
+/*  display: block;
+    margin-left: auto;
+    justify-content: left;
+    word-spacing: 1px;
+    align-items: center;
+    right: 1150px;
+    top: 1150px; */
+/* 
